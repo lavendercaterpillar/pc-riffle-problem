@@ -3,16 +3,19 @@
 Problem belonging to the post-classroom Mock Interview Question Repository.
 
 ## Problem Statement
+
 We are interested in combining words. We will do this by 'riffling' their letters together.
 
 When we riffle words together, we take the first letter of each of the words, then the second letter of each of the words, and so on.
 
 For example, if we riffle the following words:
+
 ```py
 ["abc", "mno", "xyz"]
 ```
 
 We get:
+
 ```py
 "amxbnycoz"
 ```
@@ -22,11 +25,13 @@ This is achieved by taking the first letter from `"abc"`, then the first letter 
 If the words are of unequal length, the shorter words should repeat their letters until every word is finished.
 
 For example, if we riffle:
+
 ```py
 ["mississippi", "ab"]
 ```
 
 We get:
+
 ```py
 "maibsasbiasbsaibpapbi"
 ```
